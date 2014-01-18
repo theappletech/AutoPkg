@@ -2,6 +2,6 @@
 
 mkdir -p -m 755 /Applications/Firefox.app/Contents/MacOS/distribution/bundles/ 
 
-ln -s /Library/Application\ Support/FirefoxCCK/underarmour-cck@extensions.underarmour.com /Applications/Firefox.app/Contents/MacOS/distribution/bundles/
+ln -s /Library/Application\ Support/CCK/underarmour-cck@extensions.underarmour.com /Applications/Firefox.app/Contents/MacOS/distribution/bundles/
 
 exit 0
