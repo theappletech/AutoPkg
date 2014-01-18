@@ -1,0 +1,23 @@
+#!/bin/sh
+
+SERVICE=firefox-bin
+SERVICE2=firefox
+
+# Kill Firefox process if running
+
+if ps ax | grep -v grep | grep $SERVICE > /dev/null
+then
+        killall -9 firefox-bin
+fi
+if ps ax | grep -v grep | grep $SERVICE2 > /dev/null
+then
+        killall -9 firefox
+fi
+
+# Remove previous version of Firefox from /Applications
+
+if [ -d "$3/Applications/Firefox.app" ]; then
+   rm -rf "$3/Applications/Firefox.app"
+fi
+
+exit 0

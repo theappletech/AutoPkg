@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p -m 755 /Applications/Firefox.app/Contents/MacOS/distribution/bundles/ 
+
+if [ ! -L /Applications/Firefox.app/Contents/MacOS/distribution/bundles/underarmour-cck@extensions.underarmour.com ];
+then
+        ln -s /Library/Application\ Support/FirefoxCCK/underarmour-cck@extensions.underarmour.com /Applications/Firefox.app/Contents/MacOS/distribution/bundles/
+fi
+
+exit 0
