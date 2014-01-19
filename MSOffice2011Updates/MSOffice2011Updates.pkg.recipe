@@ -48,6 +48,18 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <key>Processor</key>
             <string>FlatPkgUnpacker</string>
         </dict>
+        </dict>
+        	<key>Processor</key>
+        	<string>Copier</string>
+        	<key>Arguments</key>
+        	<dict>
+        		<key>source_path</key>
+        		<string>%RECIPE_CACHE_DIR%/Scripts/preinstall</string>
+        		<key>destination_path</key>
+        		<string>%RECIPE_CACHE_DIR%/unpack/Office2011_all_quit_14.3.9.combo.pkg/Scripts/preinstall</string>
+        		<key>overwrite</key>
+        		<true/>
+        	</dict>
         <dict>
             <key>Processor</key>
             <string>PkgCopier</string>
