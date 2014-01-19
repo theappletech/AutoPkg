@@ -48,7 +48,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <key>Processor</key>
             <string>FlatPkgUnpacker</string>
         </dict>
-        </dict>
+        <dict>
         	<key>Processor</key>
         	<string>Copier</string>
         	<key>Arguments</key>
