@@ -59,17 +59,8 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
         		<string>%RECIPE_CACHE_DIR%/unpack/Office2011_all_quit_14.3.9.combo.pkg/Scripts/preinstall</string>
         		<key>overwrite</key>
         		<true/>
-        		<key>chown</key>
-                    <array>
-                        <dict>
-                            <key>path</key>
-                            <string>Applications</string>
-                            <key>user</key>
-                            <string>root</string>
-                            <key>group</key>
-                            <string>admin</string>
-                        </dict>
-                    </array>
+        		<key>chmod</key>
+        		<string>0755</string>
         	</dict>
         </dict>
         <dict>
