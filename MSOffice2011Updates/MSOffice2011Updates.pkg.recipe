@@ -37,9 +37,16 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <key>Processor</key>
             <string>URLDownloader</string>
         </dict>
-        <dict>
+            <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>flat_pkg_path</key>
+                <string>%pathname%/*.pkg</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack</string>
+            </dict>
             <key>Processor</key>
-            <string>EndOfCheckPhase</string>
+            <string>FlatPkgUnpacker</string>
         </dict>
         <dict>
             <key>Processor</key>
