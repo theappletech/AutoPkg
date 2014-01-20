@@ -32,7 +32,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
                 <key>version</key>
                 <string>%VERSION%</string>
                 <key>CFBundleVersion</key>
-                <string>%CFBundleVersion%</key>
+                <string>%CFBundleVersion%</string>
             </dict>
         </dict>
         <dict>
