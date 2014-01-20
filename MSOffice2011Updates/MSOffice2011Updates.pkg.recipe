@@ -57,10 +57,6 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
         		<string>%RECIPE_CACHE_DIR%/resources/Distribution.xml</string>
         		<key>destination_path</key>
         		<string>%RECIPE_CACHE_DIR%/unpack/Distribution.xml</string>
-        		<key>overwrite</key>
-        		<true/>
-        		<key>chmod</key>
-        		<string>0755</string>
         	</dict>
         </dict>
         <dict>
