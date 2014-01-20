@@ -48,19 +48,6 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <key>Processor</key>
             <string>FlatPkgUnpacker</string>
         </dict>
-        <dict>
-        	<key>Processor</key>
-        	<string>Copier</string>
-        	<key>Arguments</key>
-        	<dict>
-        		<key>source_path</key>
-        		<string>%RECIPE_CACHE_DIR%/resources/Distribution.xml</string>
-        		<key>destination_path</key>
-        		<string>%RECIPE_CACHE_DIR%/unpack/Distribution.xml</string>
-        		<key>override</key>
-        		<true/>
-        	</dict>
-        </dict>
           <dict>
             <key>Arguments</key>
             <dict>
