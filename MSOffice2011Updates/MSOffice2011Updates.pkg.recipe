@@ -31,6 +31,8 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
                 <string>%CULTURE_CODE%</string>
                 <key>version</key>
                 <string>%VERSION%</string>
+                <key>CFBundleVersion</key>
+                <string>%CFBundleVersion%</key>
             </dict>
         </dict>
         <dict>
@@ -67,7 +69,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <key>Arguments</key>
             <dict>
                 <key>destination_pkg</key>
-                <string>%RECIPE_CACHE_DIR%/Office_Update.pkg</string>
+                <string>%RECIPE_CACHE_DIR%/Office_%CFBundleVersion%_Update.pkg</string>
                 <key>source_flatpkg_dir</key>
                 <string>%RECIPE_CACHE_DIR%/unpack</string>
             </dict>

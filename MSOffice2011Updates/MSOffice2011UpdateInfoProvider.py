@@ -80,6 +80,9 @@ class MSOffice2011UpdateInfoProvider(Processor):
             "description": 
                 "Some pkginfo fields extracted from the Microsoft metadata.",
         },
+        "CFBundleVersion": {
+        	"description": "Version number of the package.",
+        },
     }
     description = __doc__
     
