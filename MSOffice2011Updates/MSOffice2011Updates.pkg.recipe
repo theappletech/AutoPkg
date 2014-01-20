@@ -57,16 +57,20 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
         		<string>%RECIPE_CACHE_DIR%/resources/Distribution.xml</string>
         		<key>destination_path</key>
         		<string>%RECIPE_CACHE_DIR%/unpack/Distribution.xml</string>
+        		<key>override</key>
+        		<false/>
         	</dict>
         </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PkgCopier</string>
+          <dict>
             <key>Arguments</key>
             <dict>
-                <key>source_pkg</key>
-                <string>%pathname%/%pkg_name%</string>
+                <key>destination_pkg</key>
+                <string>%RECIPE_CACHE_DIR%/Office_Update.pkg</string>
+                <key>source_flatpkg_dir</key>
+                <string>%RECIPE_CACHE_DIR%/unpack</string>
             </dict>
+            <key>Processor</key>
+            <string>FlatPkgPacker</string>
         </dict>
     </array>
 </dict>
