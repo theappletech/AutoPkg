@@ -31,8 +31,6 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
                 <string>%CULTURE_CODE%</string>
                 <key>version</key>
                 <string>%VERSION%</string>
-                <key>CFBundleVersion</key>
-                <string>%CFBundleVersion%</string>
             </dict>
         </dict>
         <dict>
