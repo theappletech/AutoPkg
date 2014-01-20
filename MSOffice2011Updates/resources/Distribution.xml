@@ -204,7 +204,6 @@ function HasEnoughMemory()
 }
 </script>
     <choices-outline>
-        <line choice="quit"/>
         <line choice="readme"/>
         <line choice="core_resources"/>
         <line choice="ooxml"/>
@@ -257,7 +256,7 @@ function HasEnoughMemory()
         <line choice="fix_permissions"/>
         <line choice="core"/>
     </choices-outline>
-    <choice id="quit" selected="false" start_enabled="false" start_selected="false" start_visible="false" title="quit-title">
+    <choice id="quit" selected="true" start_enabled="false" start_selected="false" start_visible="false" title="quit-title">
         <pkg-ref id="quit"/>
     </choice>
     <choice id="readme" selected="true" start_enabled="false" start_selected="false" start_visible="false" title="readme-title">
@@ -374,15 +373,6 @@ function HasEnoughMemory()
     <choice id="fonts" selected="true" start_enabled="false" start_selected="false" start_visible="false" title="fonts-title">
         <pkg-ref id="fonts">
             <must-close>
-                <app id="com.apple.Safari"/>
-                <app id="org.mozilla.firefox"/>
-                <app id="com.google.Chrome"/>
-                <app id="com.operasoftware.Opera"/>
-                <app id="com.microsoft.Word"/>
-                <app id="com.microsoft.Excel"/>
-                <app id="com.microsoft.Query"/>
-                <app id="com.microsoft.Powerpoint"/>
-                <app id="com.microsoft.Outlook"/>
             </must-close>
         </pkg-ref>
     </choice>
