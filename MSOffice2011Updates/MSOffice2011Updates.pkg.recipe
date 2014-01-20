@@ -82,8 +82,10 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
           <dict>
             <key>Arguments</key>
             <dict>
+                <key>pkgdir</key>
+                <string>%RECIPE_CACHE_DIR%</string>
                 <key>destination_pkg</key>
-                <string>%RECIPE_CACHE_DIR%/Office_%CFBundleVersion%_Update.pkg</string>
+                <string>%NAME%-%version%</string>
                 <key>source_flatpkg_dir</key>
                 <string>%RECIPE_CACHE_DIR%/unpack</string>
             </dict>
