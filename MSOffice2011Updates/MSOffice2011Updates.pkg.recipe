@@ -58,7 +58,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
                         <key>source_path</key>
                         <string>%RECIPE_DIR%/resources/Distribution.xml</string>
                         <key>destination_path</key>
-                        <string>%RECIPE_CACHE_DIR%/unpack/</string>
+                        <string>%RECIPE_CACHE_DIR%/unpack/Distribution</string>
                         <key>overwrite</key>
                         <true/>
                 </dict>
