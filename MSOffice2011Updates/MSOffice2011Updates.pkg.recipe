@@ -58,7 +58,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
         		<key>destination_path</key>
         		<string>%RECIPE_CACHE_DIR%/unpack/Distribution.xml</string>
         		<key>override</key>
-        		<false/>
+        		<true/>
         	</dict>
         </dict>
           <dict>
