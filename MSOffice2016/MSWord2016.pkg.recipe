@@ -37,7 +37,7 @@ http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx for a table of Cu
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>%NAME%_Update.pkg</string>
+                <string>%NAME%.pkg</string>
             </dict>
         </dict>
         <dict>
