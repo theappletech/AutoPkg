@@ -23,7 +23,7 @@
             <key>Arguments</key>
             <dict>
                 <key>dest_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%CFBundleVersion%.amsdpackages</string>
+                <string>%RECIPE_CACHE_DIR%/%NAME%.amsdpackages</string>
                 <key>sdpackages_ampkgprops_path</key>
                 <string>%RECIPE_DIR%/%NAME%-Defaults.ampkgprops</string>
                 <key>source_payload_path</key>
