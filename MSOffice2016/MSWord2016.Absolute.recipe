@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>MSWord2016</string>
+        <string>Microsoft_Word_2016-%plist_version_key%</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.theappletech.pkg.msword2016</string>
@@ -23,7 +23,7 @@
             <key>Arguments</key>
             <dict>
                 <key>dest_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.amsdpackages</string>
+                <string>%RECIPE_CACHE_DIR%/%NAME%-%plist_version_key%.amsdpackages</string>
                 <key>sdpackages_ampkgprops_path</key>
                 <string>%RECIPE_DIR%/%NAME%-Defaults.ampkgprops</string>
                 <key>source_payload_path</key>
