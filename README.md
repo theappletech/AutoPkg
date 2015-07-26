@@ -1,4 +1,4 @@
 AutoPkg
 =======
 
-Recipes for AutoPkg
+Recipes for AutoPkg to use with Absolute Manage
