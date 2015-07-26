@@ -12,7 +12,7 @@
         <string>MSWord2016</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.arubdesu.pkg.MSWord2016</string>
+    <string>com.github.theappletech.pkg.msword2016</string>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
     <key>Process</key>
