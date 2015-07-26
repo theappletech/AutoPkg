@@ -45,7 +45,7 @@
                 <key>source_pkg</key>
                 <string>%RECIPE_CACHE_DIR%/downloads</string>
               	<key>pkg_path</key>
-              	<string>%RECIPE_CACHE_DIR%/&NAME%-%plist_version_key%</string>
+              	<string>%RECIPE_CACHE_DIR%</string>
             </dict>
         </dict>
     </array>
