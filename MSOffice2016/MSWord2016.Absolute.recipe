@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Microsoft_Word_2016-%plist_version_key%</string>
+        <string>%NAME%_Update</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.theappletech.pkg.msword2016</string>
@@ -17,6 +17,17 @@
     <string>0.4.0</string>
     <key>Process</key>
     <array>
+        <dict>
+            <key>Processor</key>
+            <string>PkgCopier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>source_pkg</key>
+                <string>%RECIPE_CACHE_DIR%/downloads</string>
+              	<key>pkg_path</key>
+              	<string>%RECIPE_CACHE_DIR%/&NAME%-%plist_version_key%</string>
+            </dict>
+        </dict>
         <dict>
             <key>Processor</key>
             <string>com.github.tburgin.AbsoluteManageExport/AbsoluteManageExport</string>
