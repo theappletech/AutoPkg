@@ -25,7 +25,7 @@
                 <key>dest_payload_path</key>
                 <string>%RECIPE_CACHE_DIR%/%pkg_name%.amsdpackages</string>
                 <key>sdpackages_ampkgprops_path</key>
-                <string>%RECIPE_DIR%/%NAME%-Defaults.ampkgprops</string>
+                <string>%RECIPE_DIR%/%pkg_name%-Defaults.ampkgprops</string>
                 <key>source_payload_path</key>
                 <string>%RECIPE_CACHE_DIR%</string>
                 <key>import_abman_to_servercenter</key>
