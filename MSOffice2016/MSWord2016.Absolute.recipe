@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>%NAME%_Update</string>
+        <string>MSWord2016</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.theappletech.pkg.msword2016</string>
