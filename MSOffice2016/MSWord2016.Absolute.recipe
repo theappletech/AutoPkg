@@ -19,17 +19,6 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>PkgCopier</string>
-            <key>Arguments</key>
-            <dict>
-                <key>source_pkg</key>
-                <string>%RECIPE_CACHE_DIR%/downloads</string>
-              	<key>pkg_path</key>
-              	<string>%RECIPE_CACHE_DIR%/&NAME%-%plist_version_key%</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
             <string>com.github.tburgin.AbsoluteManageExport/AbsoluteManageExport</string>
             <key>Arguments</key>
             <dict>
