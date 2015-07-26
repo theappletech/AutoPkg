@@ -25,7 +25,20 @@
                 <key>source_pkg</key>
                 <string>%RECIPE_CACHE_DIR%/downloads/</string>
               	<key>pkg_path</key>
-              	<string>%RECIPE_CACHE_DIR%/&NAME%-%plist_version_key%</string>
+              	<string>%RECIPE_CACHE_DIR%</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Comment</key>
+            <string>Get version from the app</string>
+            <key>Processor</key>
+            <string>Versioner</string>
+            <key>Arguments</key>
+            <dict>
+                <key>input_plist_path</key>
+                <string>/Applications/Microsoft\ Word.app/Contents/Info.plist</string>
+                <key>plist_version_key</key>
+                <string>CFBundleShortVersionString</string>
             </dict>
         </dict>
         <dict>
@@ -34,7 +47,7 @@
             <key>Arguments</key>
             <dict>
                 <key>dest_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%-%version%.amsdpackages</string>
+                <string>%RECIPE_CACHE_DIR%/%NAME%-%plist_version_key%.amsdpackages</string>
                 <key>sdpackages_ampkgprops_path</key>
                 <string>%RECIPE_DIR%/%NAME%-Defaults.ampkgprops</string>
                 <key>source_payload_path</key>
